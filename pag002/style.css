@@ -1,7 +1,7 @@
 body{background-color: #f0f2f5;}
 div#div1{
 width: 400px;
-height: 570px;
+height: 620px;
 font-size: 10pt;
 margin-left: auto;
 margin-right: auto;
@@ -9,6 +9,8 @@ background-color: rgba(255, 255, 255, 0.842);
 border-radius: 10px;
 padding: 20px;
 box-shadow:8px 8px rgba(0, 0, 0, 0.342);
+text-align: center;
+font-family: sans-serif;
 }
 div#div2{
     text-align: left;
@@ -34,6 +36,7 @@ color: azure;
 }
 label{border-radius: 8px;
 
+font-family: sans-serif;
 height: 40px;
 width: 300px;
 margin-top: auto;
@@ -46,12 +49,46 @@ text-align: center;
 }
 input#email{height: 30px;}
 input#nome{height: 30px;}
-input#senha1{height: 30px;}
-input#senha2{height: 30px;}
+input#senha1{height: 30px;
+border-color: rgb(0, 0, 0);
+
+}
+input#senha2{height: 30px;
+    border-color: rgb(0, 0, 0);}
 p#p1{font-family: sans-serif;
-text-align: left;
+text-align: center;
 font-size: 9pt;
 }
-img#img1{width: 25px;}
-div#div3{text-align: center;}
+img#img1{width: 25px;
+
+
+}
+div#img{
+    text-align: right;
+   
+}
 div#div6{text-align: center;}
+p#p1{
+    color: red;
+}
+button#btn1{
+background-color: rgba(255, 255, 255, 0.842);
+border-color: rgba(13, 15, 15, 0.719);
+color: black;
+width: 150px;
+font-size: 12pt;
+text-align: center;
+}
+button#btn2{
+    background-color: rgba(255, 255, 255, 0.842);
+    border-color: rgba(13, 15, 15, 0.719);
+    color: black;
+    width: 150px;
+    font-size: 12pt;
+    text-align: center;
+    
+
+}
+#imge1{
+    vertical-align: middle;
+}

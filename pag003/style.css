@@ -3,13 +3,14 @@ div#div1{
 text-align: left;
 background-color: rgb(255, 255, 255);
 width: 500px;
-height: 260px;
+height: 300px;
 border-radius: 6px;
 box-shadow: 6px 6px rgba(0, 0, 0, 0.233);
 padding: 8px;
 margin-left: auto;
 margin-right: auto;
 font-family: sans-serif;
+
 }
 
 input{width: 490px;
@@ -28,8 +29,20 @@ button{
 
 }
 button#conf{background-color: rgb(144, 203, 238);
-color: azure;}
+color: azure;
+border-color: rgb(144, 203, 238);}
 body{background-color: #f0f2f5;
 
 
+}
+hr{
+   background-color: rgba(0, 0, 0, 0.233);
+   border-color: black;
+}
+img#img1{width: 25px;
+
+
+}
+div#img{
+   text-align: right;
 }

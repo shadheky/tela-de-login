@@ -5,17 +5,23 @@ div#div1{
       /* 4 */
       
       margin-left: 10px;
-    background-color: #ffff;
+    background-color: 	#f8ce96c9;
     text-align: center;
     width: 300px;
     border-radius: 6px;
     padding: 8px;
     height: 400px;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.308);
+    top: 50px;
+    position: absolute;
+    top: 0px; bottom: 0px;
+    left: 0; right: 975px;
+    margin: auto;
+
+}
+input#email{
+    width: 290px;
     
-   position: absolute;              /* 2 */
-   top: 50%;                         /* 3 */
-   transform: translate(0, -50%)   /* 4 */
 }
 input{
     width: 250px;
@@ -26,18 +32,31 @@ input{
 a{
     color: rgb(24, 4, 4);
 }
+input#senha{
+    width: 266px;
+    border-color: rgb(24, 4, 4);
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    
+}
 input#criar{
     width: 150px;
-   background-color: #42b72a;
-  border-color: #42b72a;
+   background-color: #a3f05a;
+  border-color: #8cf55c;
   color: white;}
 hr{
     width: 300px;
-    border-color:silver;
-    height: 1px;
+    border-color:black;
+    height: 0,4px;
     background-color: silver;
 }
-body{background-color: #f0f2f5;
+body{background-color: #87ceeb;
+vertical-align: middle;
+text-align: center;
+margin-bottom: auto;
 
 
 }
@@ -49,20 +68,95 @@ div#div2{
     
 }
 img#img1{
-    width: 500px;
-    height: 150px;
+    width: 200px;
+    height:     60px;
+    vertical-align: middle;
+    
 }
     h1{width: 500px;
         height: 150px;}
  div#div3{
-    width: 800px;
-    height: 400px; 
-   position: absolute;
-    bottom: 0;
-    left: 1;
-    top:0;
-    right: 0;
-    margin: auto;
+    width: 600px;
+    height: 200px;
+   
+    margin-left: auto;
+    text-align: center;
+    float: right;
+    
+    
+    height:200px;
+    width: 600px;
+    top: 0; bottom: 0;
+left: 1; right: 0;
+margin: auto;
+position: absolute;
+}
+img#olho{
+    width: 25px;
+    vertical-align: middle;
+    
+}
+#divimg{
+    background-color: white;
+    
+    border: 2px solid;
+    border-color:rgb(15, 15, 12);
+    border-radius: 4px;
+  
+   
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    
+    }
+    #top{
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:11;
+      
+        width:100%;
+        height: 50px;
+        
+        filter: alpha(opacity=65);
+        text-align: center;
+        
+    }
+    #logo1{
+        width: 250px;
+    }
+
+h2{
+    font-size: 15pt;
+}
+ #divolho{
+    background-color: white;
+    text-align:center;
+    border: 2px solid;
+    border-color:rgb(26, 26, 21);
+    border-radius: 5px;
+ }
+   
+#div_img{
+width: 500px;
+height: 400px;
+
+text-align: right;
+
+
+margin-left: 55%;
+position: absolute;
+top: 100px; bottom: 0;
+left: 0px; right: 0px;
+margin: auto;
+
+
+}
+#img_1{
+    width: 350px;
+    margin-top: auto;
+}
+#a_1{
     font-family: sans-serif;
-    font-size: 20px;
-}       
+    text-decoration-line: none;
+}
