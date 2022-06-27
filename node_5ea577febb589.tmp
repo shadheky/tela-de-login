@@ -1,0 +1,18 @@
+const passowrdinput = document.querySelector('input#senha')
+function mostrar(){
+  
+  const eyepng = document.queryselector('img#olho')
+  let inputTypeIsPassword = passowrdinput
+  inputpass.setAttribute('type', 'text')
+  if(inputTypeIsPassword){
+    function showpassword(){
+      passowrdinput.setAttribute("type","text")}
+  }
+else( function hidepassword(){
+  passowrdinput.setAttribute("type","passoword")
+})
+}
+
+
+
+
